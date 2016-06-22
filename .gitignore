@@ -18,4 +18,5 @@ xxx_main_xxx.cc
 hello.cparser
 hello.ghc
 hello.mlton
+hello.gpp
 src/hello.hi

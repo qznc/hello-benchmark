@@ -9,6 +9,7 @@ CASES = [
     ("Python2", "", "python2 src/hello.py"),
     ("Python3", "", "python3 src/hello.py"),
     ("GCC", "gcc src/hello.c -o hello.gcc", "./hello.gcc"),
+    ("G++", "g++ src/hello.cpp -o hello.gpp", "./hello.gpp"),
     #("cparser", "cparser src/hello.c -o hello.cparser", "./hello.cparser"),
     ("Go", "", "go run src/hello.go"),
     ("Rust", "rustc src/hello.rs -o hello.rustc", "./hello.rustc"),
