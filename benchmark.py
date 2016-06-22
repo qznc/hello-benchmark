@@ -17,6 +17,7 @@ CASES = [
     ("DMD", "dmd src/hello.d -ofhello.dmd", "./hello.dmd"),
     ("Java", "javac src/Hello.java", "java -classpath src/ Hello"),
     ("Scala", "scalac src/Hello.scala", "java -classpath src/ Hello"),
+    ("SML/mlton", "mlton -output hello.mlton src/hello.sml", "./hello.mlton"),
     ("X10 Java", "x10c src/Hello.x10", "java -classpath src/ Hello"),
     ("X10 C++", "x10c++ src/Hello.x10 -o hello.x10cpp", "./hello.x10cpp"),
     #("X10 Firm", "x10firm src/Hello.x10 -o hello.x10firm", "./hello.x10firm"),
