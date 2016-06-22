@@ -17,3 +17,5 @@ src/Hello.class
 xxx_main_xxx.cc
 hello.cparser
 src/hello.go
+hello.ghc
+src/hello.hi

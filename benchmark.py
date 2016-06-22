@@ -13,6 +13,7 @@ CASES = [
     ("Go", "", "go run src/hello.go"),
     ("Rust", "rustc src/hello.rs -o hello.rustc", "./hello.rustc"),
     ("RDMD", "", "rdmd --force src/hello.d"),
+    ("Haskell", "ghc -fforce-recomp src/hello.hs -o hello.ghc", "./hello.ghc"),
     ("DMD", "dmd src/hello.d -ofhello.dmd", "./hello.dmd"),
     ("Java", "javac src/Hello.java", "java -classpath src/ Hello"),
     ("Scala", "scalac src/Hello.scala", "java -classpath src/ Hello"),
