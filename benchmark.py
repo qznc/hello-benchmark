@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import subprocess
+import platform
 from datetime import datetime
 
 CASES = [
@@ -32,6 +33,7 @@ def measure(cmd_compile, cmd_exec):
     assert out == b"Hello World!\n", out
     return end - start
 
+print("Platform:", platform.platform())
 for name,cmp,exe in CASES:
     try:
         t = measure(cmp, exe)
